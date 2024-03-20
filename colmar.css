@@ -1,5 +1,36 @@
-ul {
+.nav {
     height: 64px;
-    width: fit-content;
+    width: auto;
     background-color: aquamarine;
+    /* align-items: center; */
+
+
+
+}
+
+nav {
+    display: inline-flex;
+    margin-top: 5px;
+}
+
+ul {
+    display: flex;
+    margin-left: 1500px;
+    justify-content: space-around;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* background-color: white; */
+}
+
+.learn {
+    background-color: gray !important;
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    /* width: fit-content; */
+}
+
+.bannerimg {
+    margin-top: 32px;
 }
