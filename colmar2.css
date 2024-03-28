@@ -1,0 +1,193 @@
+html {}
+
+body {
+    max-width: 1669px;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.nav {
+    height: 64px;
+    background-color: aquamarine;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    /* justify-content: center; */
+
+    /* flex-direction: row; */
+
+    /* flex-wrap: wrap; */
+    background: rgb(199, 199, 199);
+    width: 100%;
+    height: 800px;
+    border: 1px solid red;
+
+
+
+}
+
+.secondary {
+    width: 60%;
+    /* display: flex; */
+    max-height: 100%;
+
+    /* justify-content: center; */
+    /* border: 1px solid black; */
+    /* object-fit: contain; */
+
+
+    margin: 32px 24px 32px 24px;
+    background-repeat: no-repeat;
+    font-size: 25px;
+    line-height: 35px;
+
+
+
+}
+
+h1 {
+    font-size: 53px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#bannerimg {
+    background-image: url("./colmar images/banner.jpg");
+    /* background-position: top; */
+    background-size: contain;
+}
+
+#practiceimg {
+    background-image: url("./colmar images/information-main.jpg");
+    background-size: contain;
+    width: 1001px;
+    height: 551px;
+
+}
+
+
+#practice-main {
+    height: 1000px;
+    font-size: ;
+}
+
+.practice-text {
+    justify-content: space-between;
+}
+
+.terciary {
+    width: 40%;
+    /* margin-left: 12px; */
+    margin-top: 10px;
+    margin-bottom: 34px;
+    margin-right: 70px;
+    display: flex;
+    /* align-items: center; */
+    flex-direction: column;
+    justify-content: center;
+    color: rgb(71, 71, 71);
+    line-height: 60px;
+    /* letter-spacing: 0px; */
+}
+
+.learn {
+    margin-left: 24px;
+}
+
+.orientation {
+    background-color: white;
+    width: 100%;
+    height: 300px;
+    border: 1px solid black;
+}
+
+.orientation-img {
+    width: 35%;
+}
+
+.campus {
+    background-color: white;
+    width: 100%;
+    height: 300px;
+    border: 1px solid black;
+
+}
+
+.campus-img {
+    width: 35%;
+}
+
+.lecture-img {
+    width: 35%;
+}
+
+.lecture {
+    background-color: white;
+    width: 100%;
+    height: 300px;
+    border: 1px solid black;
+}
+
+.start {}
+
+.video {
+    /* display: flex; */
+}
+
+#video {
+    /* height: 100%;
+    width: 100%;
+
+
+ */
+    width: 100%;
+}
+
+.title {
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+button {
+    width: 80%;
+    height: 70px;
+    background-color: rgb(71, 71, 71);
+    color: aliceblue;
+    font-size: 25px;
+}
+
+.cards-container {
+    margin-left: 72px;
+    margin-right: 72px;
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card-container {
+    border: 1px solid black;
+    width: 532px;
+    margin-bottom: 32px;
+    max-width: 30%;
+
+
+}
+
+
+
+img {
+    width: 100%;
+
+    overflow: hidden;
+}
+
+.thesis {
+    /* margin-bottom: 32px;
+    margin-top: 32px; */
+}

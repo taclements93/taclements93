@@ -1,7 +1,8 @@
 .nav {
     height: 64px;
     width: auto;
-    background-color: aquamarine;
+    background-color:
+        rgb(255, 255, 255);
     /* align-items: center; */
 
 
@@ -11,26 +12,58 @@
 nav {
     display: inline-flex;
     margin-top: 5px;
+    font-size: 18px;
 }
 
 ul {
     display: flex;
-    margin-left: 1500px;
+    margin-left: 950px;
     justify-content: space-around;
 }
 
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    /* background-color: white; */
+    font-size: 25px;
+
+}
+
+h1 {
+    font-size: 46px;
 }
 
 .learn {
-    background-color: gray !important;
-    /* display: flex; */
-    /* flex-wrap: wrap; */
-    /* width: fit-content; */
+    background-color: rgb(200, 200, 200);
+    display: inline-flex;
+    width: 100%;
+    /* justify-content: space-around; */
+
 }
 
 .bannerimg {
     margin-top: 32px;
+    width: 60%;
+    margin-left: 24px;
+}
+
+#learn {
+    display: inline-block;
+    /* text-align: center; */
+    width: 435px;
+    margin-left: 50px;
+    margin-top: 200px;
+    line-height: 52px;
+}
+
+.practice {
+    /* background-color: */
+}
+
+button {
+
+    width: 435px;
+    height: 60px;
+    color: white;
+    background-color: rgb(95, 95, 95);
+    border: none;
+    font-size: 15px;
 }
