@@ -20,19 +20,24 @@ body {
     /* flex-direction: row; */
 
     /* flex-wrap: wrap; */
-    background: rgb(199, 199, 199);
+    /* background: white); */
     width: 100%;
     height: 800px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 
 
 
+}
+
+#main1 {
+    background-color: rgb(230, 230, 230);
 }
 
 .secondary {
     width: 60%;
     /* display: flex; */
     max-height: 100%;
+    max-width: 60%;
 
     /* justify-content: center; */
     /* border: 1px solid black; */
@@ -49,8 +54,13 @@ body {
 }
 
 h1 {
-    font-size: 53px;
+    font-size: 50px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 55px;
+}
+
+h2 {
+    font-size: 28px;
 }
 
 #bannerimg {
@@ -64,13 +74,16 @@ h1 {
     background-size: contain;
     width: 1001px;
     height: 551px;
+    max-width: 100%;
+    background-repeat: no-repeat;
 
 }
 
 
 #practice-main {
     height: 1000px;
-    font-size: ;
+    display: flex;
+    width: 100%;
 }
 
 .practice-text {
@@ -80,14 +93,14 @@ h1 {
 .terciary {
     width: 40%;
     /* margin-left: 12px; */
-    margin-top: 10px;
+    margin-top: 32px;
     margin-bottom: 34px;
-    margin-right: 70px;
+    /* margin-right: 70px; */
     display: flex;
     /* align-items: center; */
     flex-direction: column;
-    justify-content: center;
-    color: rgb(71, 71, 71);
+    /* justify-content: center; */
+    color: rgb(70, 70, 70);
     line-height: 60px;
     /* letter-spacing: 0px; */
 }
@@ -96,41 +109,119 @@ h1 {
     margin-left: 24px;
 }
 
-.orientation {
+.O {
+    display: flex;
     background-color: white;
     width: 100%;
-    height: 300px;
-    border: 1px solid black;
+    height: 200px;
+    /* border: 1px solid black; */
+    align-items: center;
+    /* justify-content: baseline; */
+    line-height: 15px;
+    font-size: 15px;
+    color: ;
+
 }
 
 .orientation-img {
+
     width: 35%;
+    height: 90%;
+    margin-left: 16px;
+
+    background-image: url("./colmar images/information-orientation.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* align-items: center;
+    display: flex; */
 }
 
-.campus {
+.orientation-info {
+    display: flex;
+    width: 65%;
+    height: 100%;
+    flex-direction: column;
+    text-align: left;
+    justify-content: center;
+    margin-left: 20px;
+
+
+
+
+
+
+}
+
+/* .campus {
     background-color: white;
     width: 100%;
-    height: 300px;
+    height: 232px;
     border: 1px solid black;
+    display: flex;
+    align-items: center;
 
-}
+} */
 
 .campus-img {
     width: 35%;
+    height: 90%;
+    margin-left: 16px;
+    background-image: url("/colmar images/information-campus.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
 }
+
+.campus-info {
+    display: flex;
+    width: 65%;
+    height: 100%;
+    flex-direction: column;
+    text-align: left;
+    justify-content: center;
+    margin-left: 20px;
+
+}
+
+/* .lecture {
+    background-color: white;
+    width: 100%;
+    height: 232px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center; */
+
 
 .lecture-img {
     width: 35%;
+    height: 90%;
+    margin-left: 16px;
+    background-image: url("/colmar images/information-guest-lecture.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
-.lecture {
+.lecture-info {
+    display: flex;
+    width: 65%;
+    height: 100%;
+    flex-direction: column;
+    text-align: left;
+    justify-content: center;
+    margin-left: 20px;
+}
+
+#O1 {
     background-color: white;
-    width: 100%;
-    height: 300px;
-    border: 1px solid black;
 }
 
-.start {}
+#O3 {
+    background-color: rgb(230, 230, 230);
+}
+
+
+.start {
+    background-color: rgb(230, 230, 230);
+}
 
 .video {
     /* display: flex; */
@@ -156,7 +247,7 @@ h1 {
 button {
     width: 80%;
     height: 70px;
-    background-color: rgb(71, 71, 71);
+    background-color: rgb(255, 255, 255);
     color: aliceblue;
     font-size: 25px;
 }
@@ -164,18 +255,29 @@ button {
 .cards-container {
     margin-left: 72px;
     margin-right: 72px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
 }
 
 .card-container {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     width: 532px;
     margin-bottom: 32px;
     max-width: 30%;
+    background-color: white;
 
+
+}
+
+.card-content {
+    /* display: flex; */
+    align-items: center;
+    /* font-size: smaller; */
+    margin-left: 16px;
+    margin-bottom: 24px;
+    margin-right: 20px;
 
 }
 
